@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= steacks prices run function monster_industries:shop/cooked_beef/cooked_beef

@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= legs_gold prices run function monster_industries:shop/golden_leggins/golden_leggins

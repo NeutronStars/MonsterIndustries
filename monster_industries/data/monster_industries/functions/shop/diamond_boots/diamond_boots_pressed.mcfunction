@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= boots_diams prices run function monster_industries:shop/diamond_boots/diamond_boots

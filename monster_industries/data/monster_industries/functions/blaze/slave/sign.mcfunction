@@ -1,0 +1,4 @@
+execute at @s if entity @s[tag=b_slave1] run data merge block ~ ~2 ~ {Text3:'[{"text":"Niveau: "},{"score":{"name":"@e[tag=b_slave1]","objective":"slave_level"}}]'}
+execute at @s if entity @s[tag=b_slave2] run data merge block ~ ~2 ~ {Text3:'[{"text":"Niveau: "},{"score":{"name":"@e[tag=b_slave2]","objective":"slave_level"}}]'}
+execute at @s if entity @s[tag=b_slave3] run data merge block ~ ~2 ~ {Text3:'[{"text":"Niveau: "},{"score":{"name":"@e[tag=b_slave3]","objective":"slave_level"}}]'}
+execute at @s if entity @s[tag=b_slave4] run data merge block ~ ~2 ~ {Text3:'[{"text":"Niveau: "},{"score":{"name":"@e[tag=b_slave4]","objective":"slave_level"}}]'}

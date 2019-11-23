@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= sword_wood prices run function monster_industries:shop/wooden_sword/wooden_sword

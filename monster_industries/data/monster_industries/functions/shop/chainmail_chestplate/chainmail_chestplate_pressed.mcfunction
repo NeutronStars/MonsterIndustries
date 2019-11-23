@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= chest_mail prices run function monster_industries:shop/chainmail_chestplate/chainmail_chestplate

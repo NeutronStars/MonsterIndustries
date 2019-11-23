@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= chest_iron prices run function monster_industries:shop/iron_chestplate/iron_chestplate
