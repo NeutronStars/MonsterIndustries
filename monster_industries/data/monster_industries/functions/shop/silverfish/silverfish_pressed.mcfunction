@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= silverfish_1 prices if score @s coal_count >= silverfish_2 prices run function monster_industries:shop/silverfish/silverfish

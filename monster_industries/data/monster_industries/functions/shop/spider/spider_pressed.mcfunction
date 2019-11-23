@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= spider_1 prices if score @s spider_count >= spider_2 prices run function monster_industries:shop/spider/spider

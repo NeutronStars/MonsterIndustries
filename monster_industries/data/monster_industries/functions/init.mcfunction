@@ -41,6 +41,10 @@ scoreboard players set e_paper paper_count 0
 scoreboard players set capital_cost paper_count 4
 
 scoreboard objectives add bone_count dummy
+scoreboard objectives add coal_count dummy
+scoreboard objectives add gpowder_count dummy
+scoreboard objectives add bpowder_count dummy
+scoreboard objectives add spider_count dummy
 
 scoreboard objectives add slave_level dummy
 scoreboard objectives add timer dummy
@@ -72,6 +76,13 @@ scoreboard objectives add helmet_diams dummy
 
 #Objective article monster
 scoreboard objectives add zombie dummy
+scoreboard objectives add drowned dummy
+scoreboard objectives add skeleton dummy
+scoreboard objectives add slime dummy
+scoreboard objectives add silverfish dummy
+scoreboard objectives add spider dummy
+scoreboard objectives add husk dummy
+scoreboard objectives add magma_cube dummy
 
 scoreboard objectives add prices dummy
 scoreboard objectives add shop dummy
@@ -79,5 +90,9 @@ function monster_industries:prices
 
 scoreboard objectives add clear_paper dummy
 scoreboard objectives add clear_bone dummy
+scoreboard objectives add clear_coal dummy
+scoreboard objectives add clear_gpowder dummy
+scoreboard objectives add clear_bpowder dummy
+scoreboard objectives add clear_spider dummy
 
 scoreboard objectives add capital dummy "Capital"

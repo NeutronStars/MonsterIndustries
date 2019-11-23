@@ -32,6 +32,20 @@ scoreboard players set helmet_diams prices 200
 #Set prive monster with multidevise
 scoreboard players set zombie_1 prices 20
 scoreboard players set zombie_2 prices 10
+scoreboard players set drowned_1 prices 20
+scoreboard players set drowned_2 prices 10
+scoreboard players set skeleton_1 prices 30
+scoreboard players set skeleton_2 prices 15
+scoreboard players set slime_1 prices 25
+scoreboard players set slime_2 prices 10
+scoreboard players set silverfish_1 prices 20
+scoreboard players set silverfish_2 prices 10
+scoreboard players set spider_1 prices 20
+scoreboard players set spider_2 prices 10
+scoreboard players set husk_1 prices 20
+scoreboard players set husk_2 prices 10
+scoreboard players set magma_cube_1 prices 25
+scoreboard players set magma_cube_2 prices 10
 
 #Set Give player count armure.
 scoreboard players set sword_wood shop 1
@@ -58,3 +72,10 @@ scoreboard players set helmet_diams shop 1
 
 #Set Give player count monster
 scoreboard players set zombie shop 1
+scoreboard players set drowned shop 1
+scoreboard players set skeleton shop 1
+scoreboard players set slime shop 1
+scoreboard players set silverfish shop 1
+scoreboard players set spider shop 1
+scoreboard players set husk shop 1
+scoreboard players set magma_cube shop 1

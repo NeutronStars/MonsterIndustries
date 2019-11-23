@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= magma_cube_1 prices if score @s bpowder_count >= magma_cube_2 prices run function monster_industries:shop/magma_cube/magma_cube

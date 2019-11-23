@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= drowned_1 prices if score @s bone_count >= drowned_2 prices run function monster_industries:shop/drowned/drowned
