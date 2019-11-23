@@ -54,7 +54,7 @@ scoreboard objectives add chest_leather dummy
 scoreboard objectives add legs_leather dummy
 scoreboard objectives add boots_leather dummy
 scoreboard objectives add steacks dummy
-scoreboard objectives add sword_gold dummy
+scoreboard objectives add sword_stone dummy
 scoreboard objectives add boots_gold dummy
 scoreboard objectives add legs_gold dummy
 scoreboard objectives add chest_mail dummy

@@ -13,7 +13,7 @@ scoreboard players set chest_leather prices 100
 scoreboard players set legs_leather prices 100
 scoreboard players set boots_leather prices 100
 scoreboard players set steacks prices 100
-scoreboard players set sword_gold prices 100
+scoreboard players set sword_stone prices 100
 scoreboard players set boots_gold prices 100
 scoreboard players set legs_gold prices 100
 scoreboard players set chest_mail prices 100
@@ -40,7 +40,7 @@ scoreboard players set chest_leather shop 1
 scoreboard players set legs_leather shop 1
 scoreboard players set boots_leather shop 1
 scoreboard players set steacks shop 2
-scoreboard players set sword_gold shop 1
+scoreboard players set sword_stone shop 1
 scoreboard players set boots_gold shop 1
 scoreboard players set legs_gold shop 1
 scoreboard players set chest_mail shop 1

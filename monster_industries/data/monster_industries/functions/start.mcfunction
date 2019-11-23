@@ -13,7 +13,7 @@ scoreboard players set @a chest_leather 0
 scoreboard players set @a legs_leather 0
 scoreboard players set @a boots_leather 0
 scoreboard players set @a steacks 0
-scoreboard players set @a sword_gold 0
+scoreboard players set @a sword_stone 0
 scoreboard players set @a boots_gold 0
 scoreboard players set @a legs_gold 0
 scoreboard players set @a chest_mail 0
