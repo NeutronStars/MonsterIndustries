@@ -7,31 +7,31 @@ scoreboard players set slave_4 prices 1000
 scoreboard players set down_slave prices 200
 
 #Set price armure with the paper devise
-scoreboard players set sword_wood prices 100
-scoreboard players set helmet_leather prices 100
+scoreboard players set sword_wood prices 50
+scoreboard players set helmet_leather prices 50
 scoreboard players set chest_leather prices 100
-scoreboard players set legs_leather prices 100
-scoreboard players set boots_leather prices 100
-scoreboard players set steacks prices 100
+scoreboard players set legs_leather prices 50
+scoreboard players set boots_leather prices 50
+scoreboard players set steacks prices 25
 scoreboard players set sword_stone prices 100
-scoreboard players set boots_gold prices 100
-scoreboard players set legs_gold prices 100
-scoreboard players set chest_mail prices 100
-scoreboard players set helmet_gold prices 100
-scoreboard players set sword_iron prices 100
+scoreboard players set boots_gold prices 75
+scoreboard players set legs_gold prices 75
+scoreboard players set chest_mail prices 150
+scoreboard players set helmet_gold prices 75
+scoreboard players set sword_iron prices 150
 scoreboard players set boots_iron prices 100
 scoreboard players set legs_iron prices 100
-scoreboard players set chest_iron prices 100
+scoreboard players set chest_iron prices 200
 scoreboard players set helmet_iron prices 100
-scoreboard players set sword_diams prices 100
-scoreboard players set boots_diams prices 100
-scoreboard players set legs_diams prices 100
-scoreboard players set chest_diams prices 100
-scoreboard players set helmet_diams prices 100
+scoreboard players set sword_diams prices 300
+scoreboard players set boots_diams prices 200
+scoreboard players set legs_diams prices 200
+scoreboard players set chest_diams prices 400
+scoreboard players set helmet_diams prices 200
 
 #Set prive monster with multidevise
-scoreboard players set zombie_1 prices 100
-scoreboard players set zombie_2 prices 100
+scoreboard players set zombie_1 prices 20
+scoreboard players set zombie_2 prices 10
 
 #Set Give player count armure.
 scoreboard players set sword_wood shop 1
