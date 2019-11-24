@@ -1,3 +1,4 @@
+#Teams
 team add Enderman
 team modify Enderman color light_purple
 team modify Enderman collisionRule never
@@ -10,45 +11,27 @@ team modify Blaze collisionRule never
 team modify Blaze friendlyFire false
 team modify Blaze prefix "[Blaze] "
 
+#Objective info
 scoreboard objectives add level_target dummy
-scoreboard players set level_1 level_target 1
-scoreboard players set level_2 level_target 2
-scoreboard players set level_3 level_target 3
-scoreboard players set level_4 level_target 4
 
+#Objective Level factories
 scoreboard objectives add level dummy
 
-scoreboard players set e_bone level 1
-scoreboard players set e_phantom level 1
-scoreboard players set e_gunpowder level 1
-scoreboard players set e_blazepower level 1
-scoreboard players set e_spider level 1
-scoreboard players set e_coal level 1
-scoreboard players set e_paper level 1
-
-scoreboard players set b_bone level 1
-scoreboard players set b_phantom level 1
-scoreboard players set b_gunpowder level 1
-scoreboard players set b_blazepower level 1
-scoreboard players set b_spider level 1
-scoreboard players set b_coal level 1
-scoreboard players set b_paper level 1
-
+#Objective give resources
 scoreboard objectives add give dummy
 
+#Objective devices
 scoreboard objectives add paper_count dummy
-scoreboard players set e_paper paper_count 0
-scoreboard players set capital_cost paper_count 4
-
 scoreboard objectives add bone_count dummy
 scoreboard objectives add coal_count dummy
 scoreboard objectives add gpowder_count dummy
 scoreboard objectives add bpowder_count dummy
 scoreboard objectives add spider_count dummy
+scoreboard objectives add membrane_count dummy
 
+#Set Objective for slaves
 scoreboard objectives add slave_level dummy
 scoreboard objectives add timer dummy
-
 scoreboard objectives add cycles dummy
 
 #Objective article armure
@@ -86,7 +69,7 @@ scoreboard objectives add magma_cube dummy
 
 scoreboard objectives add prices dummy
 scoreboard objectives add shop dummy
-function monster_industries:prices
+function monster_industries:admin/prices
 
 scoreboard objectives add clear_paper dummy
 scoreboard objectives add clear_bone dummy
@@ -94,5 +77,6 @@ scoreboard objectives add clear_coal dummy
 scoreboard objectives add clear_gpowder dummy
 scoreboard objectives add clear_bpowder dummy
 scoreboard objectives add clear_spider dummy
+scoreboard objectives add clear_membrane dummy
 
 scoreboard objectives add capital dummy "Capital"
