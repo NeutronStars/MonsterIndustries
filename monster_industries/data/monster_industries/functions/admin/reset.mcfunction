@@ -58,9 +58,11 @@ scoreboard objectives remove spider
 scoreboard objectives remove husk
 scoreboard objectives remove magma_cube
 
+#Objectif shop
 scoreboard objectives remove prices
 scoreboard objectives remove shop
 
+#Objective clear
 scoreboard objectives remove clear_paper
 scoreboard objectives remove clear_bone
 scoreboard objectives remove clear_coal
@@ -69,6 +71,8 @@ scoreboard objectives remove clear_bpowder
 scoreboard objectives remove clear_spider
 scoreboard objectives remove clear_membrane
 
+#Main Objective for industries
 scoreboard objectives remove capital
 
+#Reload Objectives
 function monster_industries:admin/init

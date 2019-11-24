@@ -67,10 +67,12 @@ scoreboard objectives add spider dummy
 scoreboard objectives add husk dummy
 scoreboard objectives add magma_cube dummy
 
+#Objetive shop
 scoreboard objectives add prices dummy
 scoreboard objectives add shop dummy
 function monster_industries:admin/prices
 
+#Objective clear
 scoreboard objectives add clear_paper dummy
 scoreboard objectives add clear_bone dummy
 scoreboard objectives add clear_coal dummy
@@ -79,4 +81,5 @@ scoreboard objectives add clear_bpowder dummy
 scoreboard objectives add clear_spider dummy
 scoreboard objectives add clear_membrane dummy
 
+#Main Objective for industries 
 scoreboard objectives add capital dummy "Capital"
