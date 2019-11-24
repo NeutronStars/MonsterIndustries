@@ -7,29 +7,29 @@ scoreboard players set slave_4 prices 1000
 scoreboard players set down_slave prices 200
 
 #Set price for levelup Factories
-scoreboard players set f_coal_2 prices 50
-scoreboard players set f_coal_3 prices 50
-scoreboard players set f_coal_4 prices 50
+scoreboard players set f_coal_2 prices 200
+scoreboard players set f_coal_3 prices 400
+scoreboard players set f_coal_4 prices 600
 
-scoreboard players set f_bpowder_2 prices 50
-scoreboard players set f_bpowder_3 prices 50
-scoreboard players set f_bpowder_4 prices 50
+scoreboard players set f_bpowder_2 prices 250
+scoreboard players set f_bpowder_3 prices 500
+scoreboard players set f_bpowder_4 prices 700
 
-scoreboard players set f_bone_2 prices 50
-scoreboard players set f_bone_3 prices 50
-scoreboard players set f_bone_4 prices 50
+scoreboard players set f_bone_2 prices 100
+scoreboard players set f_bone_3 prices 250
+scoreboard players set f_bone_4 prices 500
 
-scoreboard players set f_gpowder_2 prices 50
-scoreboard players set f_gpowder_3 prices 50
-scoreboard players set f_gpowder_4 prices 50
+scoreboard players set f_gpowder_2 prices 200
+scoreboard players set f_gpowder_3 prices 400
+scoreboard players set f_gpowder_4 prices 600
 
-scoreboard players set f_spider_2 prices 50
-scoreboard players set f_spider_3 prices 50
-scoreboard players set f_spider_4 prices 50
+scoreboard players set f_spider_2 prices 200
+scoreboard players set f_spider_3 prices 400
+scoreboard players set f_spider_4 prices 600
 
-scoreboard players set f_membrane_2 prices 50
-scoreboard players set f_membrane_3 prices 50
-scoreboard players set f_membrane_4 prices 50
+scoreboard players set f_membrane_2 prices 400
+scoreboard players set f_membrane_3 prices 700
+scoreboard players set f_membrane_4 prices 1000
 
 #Set price armure with the paper devise
 scoreboard players set sword_wood prices 50

@@ -122,4 +122,10 @@ scoreboard players set @a vex 0
 #Set default point for industries
 scoreboard players set Enderman capital 0
 scoreboard players set Blaze capital 0
+scoreboard players set Objectif capital 10000
 scoreboard objectives setdisplay sidebar capital
+
+scoreboard players set @a transfert 0
+
+scoreboard players set Enderman win 0
+scoreboard players set Blaze win 0

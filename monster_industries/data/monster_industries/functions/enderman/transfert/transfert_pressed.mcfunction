@@ -1,0 +1,1 @@
+execute as @p[team=Enderman] if score @s paper_count >= capital_cost paper_count run function monster_industries:enderman/transfert/transfert

@@ -1,0 +1,1 @@
+execute as @p[team=Blaze] if score @s paper_count >= capital_cost paper_count run function monster_industries:blaze/transfert/transfert

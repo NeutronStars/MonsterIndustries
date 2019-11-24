@@ -93,6 +93,8 @@ scoreboard objectives remove clear_membrane
 
 #Main Objective for industries
 scoreboard objectives remove capital
+scoreboard objectives remove transfert
+scoreboard objectives remove win
 
 #Reload Objectives
 function monster_industries:admin/init

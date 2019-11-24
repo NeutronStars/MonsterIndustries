@@ -10,3 +10,7 @@ execute as @a store result score @s membrane_count run clear @s minecraft:phanto
 #Slaves
 function monster_industries:enderman/slave/main
 function monster_industries:blaze/slave/main
+
+#Win
+execute if score Enderman capital >= Objectif capital if score Enderman win matches 0 if score Blaze win matches 0 run function monster_industries:enderman/win
+execute if score Blaze capital >= Objectif capital if score Blaze win matches 0 if score Enderman win matches 0 run function monster_industries:blaze/win

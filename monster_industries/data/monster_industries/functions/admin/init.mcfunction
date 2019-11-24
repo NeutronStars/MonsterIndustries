@@ -103,3 +103,5 @@ scoreboard objectives add clear_membrane dummy
 
 #Main Objective for industries 
 scoreboard objectives add capital dummy "Capital"
+scoreboard objectives add transfert dummy
+scoreboard objectives add win dummy
