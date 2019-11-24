@@ -129,3 +129,5 @@ scoreboard players set @a transfert 0
 
 scoreboard players set Enderman win 0
 scoreboard players set Blaze win 0
+
+scoreboard players set @a death 0

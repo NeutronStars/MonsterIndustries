@@ -96,5 +96,7 @@ scoreboard objectives remove capital
 scoreboard objectives remove transfert
 scoreboard objectives remove win
 
+scoreboard objectives remove death
+
 #Reload Objectives
 function monster_industries:admin/init

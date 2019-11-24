@@ -1,3 +1,6 @@
+#Les points qu'une équipe gagne lorsqu'ils font un kill.
+scoreboard players set player_death prices 100
+
 #Le prix des niveaux des esclaves doivent être des multiple de 100. Pour modifier cela, veuillez check dans clear.mcfunction des dossiers slaves.
 scoreboard players set slave_1 prices 100
 scoreboard players set slave_2 prices 200

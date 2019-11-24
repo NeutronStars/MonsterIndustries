@@ -105,3 +105,5 @@ scoreboard objectives add clear_membrane dummy
 scoreboard objectives add capital dummy "Capital"
 scoreboard objectives add transfert dummy
 scoreboard objectives add win dummy
+
+scoreboard objectives add death deathCount
