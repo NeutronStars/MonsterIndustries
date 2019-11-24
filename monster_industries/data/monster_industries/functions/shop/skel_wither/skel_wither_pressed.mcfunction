@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= skel_wither_1 prices if score @s bone_count >= skel_wither_2 prices run function monster_industries:shop/skel_wither/skel_wither

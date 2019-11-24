@@ -67,6 +67,26 @@ scoreboard objectives add spider dummy
 scoreboard objectives add husk dummy
 scoreboard objectives add magma_cube dummy
 
+scoreboard objectives add skel_wither dummy
+scoreboard objectives add pillager dummy
+scoreboard objectives add creeper dummy
+scoreboard objectives add stray dummy
+scoreboard objectives add endermite dummy
+scoreboard objectives add vindicator dummy
+scoreboard objectives add witch dummy
+scoreboard objectives add cave_spider dummy
+scoreboard objectives add enderman dummy
+scoreboard objectives add blaze dummy
+
+scoreboard objectives add shulker dummy
+scoreboard objectives add el_guardian dummy
+scoreboard objectives add guardian dummy
+scoreboard objectives add ghast dummy
+scoreboard objectives add phantom dummy
+scoreboard objectives add evoker dummy
+scoreboard objectives add ravager dummy
+scoreboard objectives add vex dummy
+
 #Objetive shop
 scoreboard objectives add prices dummy
 scoreboard objectives add shop dummy

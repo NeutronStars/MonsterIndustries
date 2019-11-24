@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= evoker_1 prices if score @s gpowder_count >= evoker_2 prices run function monster_industries:shop/evoker/evoker

@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= creeper_1 prices if score @s gpowder_count >= creeper_2 prices run function monster_industries:shop/creeper/creeper

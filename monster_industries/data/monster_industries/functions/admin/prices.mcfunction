@@ -6,6 +6,31 @@ scoreboard players set slave_4 prices 1000
 
 scoreboard players set down_slave prices 200
 
+#Set price for levelup Factories
+scoreboard players set f_coal_2 prices 50
+scoreboard players set f_coal_3 prices 50
+scoreboard players set f_coal_4 prices 50
+
+scoreboard players set f_bpowder_2 prices 50
+scoreboard players set f_bpowder_3 prices 50
+scoreboard players set f_bpowder_4 prices 50
+
+scoreboard players set f_bone_2 prices 50
+scoreboard players set f_bone_3 prices 50
+scoreboard players set f_bone_4 prices 50
+
+scoreboard players set f_gpowder_2 prices 50
+scoreboard players set f_gpowder_3 prices 50
+scoreboard players set f_gpowder_4 prices 50
+
+scoreboard players set f_spider_2 prices 50
+scoreboard players set f_spider_3 prices 50
+scoreboard players set f_spider_4 prices 50
+
+scoreboard players set f_membrane_2 prices 50
+scoreboard players set f_membrane_3 prices 50
+scoreboard players set f_membrane_4 prices 50
+
 #Set price armure with the paper devise
 scoreboard players set sword_wood prices 50
 scoreboard players set helmet_leather prices 50
@@ -47,6 +72,44 @@ scoreboard players set husk_2 prices 10
 scoreboard players set magma_cube_1 prices 25
 scoreboard players set magma_cube_2 prices 10
 
+scoreboard players set skel_wither_1 prices 40
+scoreboard players set skel_wither_2 prices 20
+scoreboard players set pillager_1 prices 40
+scoreboard players set pillager_2 prices 20
+scoreboard players set creeper_1 prices 40
+scoreboard players set creeper_2 prices 25
+scoreboard players set stray_1 prices 40
+scoreboard players set stray_2 prices 20
+scoreboard players set endermite_1 prices 40
+scoreboard players set endermite_2 prices 20
+scoreboard players set vindicator_1 prices 50
+scoreboard players set vindicator_2 prices 30
+scoreboard players set witch_1 prices 50
+scoreboard players set witch_2 prices 30
+scoreboard players set cave_spider_1 prices 45
+scoreboard players set cave_spider_2 prices 25
+scoreboard players set enderman_1 prices 35
+scoreboard players set enderman_2 prices 20
+scoreboard players set blaze_1 prices 45
+scoreboard players set blaze_2 prices 30
+
+scoreboard players set shulker_1 prices 50
+scoreboard players set shulker_2 prices 40
+scoreboard players set el_guardian_1 prices 70
+scoreboard players set el_guardian_2 prices 50
+scoreboard players set guardian_1 prices 60
+scoreboard players set guardian_2 prices 45
+scoreboard players set ghast_1 prices 60
+scoreboard players set ghast_2 prices 50
+scoreboard players set phantom_1 prices 70
+scoreboard players set phantom_2 prices 55
+scoreboard players set evoker_1 prices 65
+scoreboard players set evoker_2 prices 45
+scoreboard players set ravager_1 prices 80
+scoreboard players set ravager_2 prices 80
+scoreboard players set vex_1 prices 70
+scoreboard players set vex_2 prices 50
+
 #Set Give player count armure.
 scoreboard players set sword_wood shop 1
 scoreboard players set helmet_leather shop 1
@@ -79,3 +142,23 @@ scoreboard players set silverfish shop 1
 scoreboard players set spider shop 1
 scoreboard players set husk shop 1
 scoreboard players set magma_cube shop 1
+
+scoreboard players set skel_wither shop 1
+scoreboard players set pillager shop 1
+scoreboard players set creeper shop 1
+scoreboard players set stray shop 1
+scoreboard players set endermite shop 1
+scoreboard players set vindicator shop 1
+scoreboard players set witch shop 1
+scoreboard players set cave_spider shop 1
+scoreboard players set enderman shop 1
+scoreboard players set blaze shop 1
+
+scoreboard players set shulker shop 1
+scoreboard players set el_guardian shop 1
+scoreboard players set guardian shop 1
+scoreboard players set ghast shop 1
+scoreboard players set phantom shop 1
+scoreboard players set evoker shop 1
+scoreboard players set ravager shop 1
+scoreboard players set vex shop 1

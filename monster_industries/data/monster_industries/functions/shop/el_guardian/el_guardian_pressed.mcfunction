@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= el_guardian_1 prices if score @s bpowder_count >= el_guardian_2 prices run function monster_industries:shop/el_guardian/el_guardian

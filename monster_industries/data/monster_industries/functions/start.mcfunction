@@ -99,6 +99,26 @@ scoreboard players set @a spider 0
 scoreboard players set @a husk 0
 scoreboard players set @a magma_cube 0
 
+scoreboard players set @a skel_wither 0
+scoreboard players set @a pillager 0
+scoreboard players set @a creeper 0
+scoreboard players set @a stray 0
+scoreboard players set @a endermite 0
+scoreboard players set @a vindicator 0
+scoreboard players set @a witch 0
+scoreboard players set @a cave_spider 0
+scoreboard players set @a enderman 0
+scoreboard players set @a blaze 0
+
+scoreboard players set @a shulker 0
+scoreboard players set @a el_guardian 0
+scoreboard players set @a guardian 0
+scoreboard players set @a ghast 0
+scoreboard players set @a phantom 0
+scoreboard players set @a evoker 0
+scoreboard players set @a ravager 0
+scoreboard players set @a vex 0
+
 #Set default point for industries
 scoreboard players set Enderman capital 0
 scoreboard players set Blaze capital 0

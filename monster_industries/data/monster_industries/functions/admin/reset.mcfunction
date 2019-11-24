@@ -58,6 +58,26 @@ scoreboard objectives remove spider
 scoreboard objectives remove husk
 scoreboard objectives remove magma_cube
 
+scoreboard objectives remove skel_wither
+scoreboard objectives remove pillager
+scoreboard objectives remove creeper
+scoreboard objectives remove stray
+scoreboard objectives remove endermite
+scoreboard objectives remove vindicator
+scoreboard objectives remove witch
+scoreboard objectives remove cave_spider
+scoreboard objectives remove enderman
+scoreboard objectives remove blaze
+
+scoreboard objectives remove shulker
+scoreboard objectives remove el_guardian
+scoreboard objectives remove guardian
+scoreboard objectives remove ghast
+scoreboard objectives remove phantom
+scoreboard objectives remove evoker
+scoreboard objectives remove ravager
+scoreboard objectives remove vex
+
 #Objectif shop
 scoreboard objectives remove prices
 scoreboard objectives remove shop

@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= vindicator_1 prices if score @s membrane_count >= vindicator_2 prices run function monster_industries:shop/vindicator/vindicator

@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= phantom_1 prices if score @s membrane_count >= phantom_2 prices run function monster_industries:shop/phantom/phantom

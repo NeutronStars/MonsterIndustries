@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= shulker_1 prices if score @s membrane_count >= shulker_2 prices run function monster_industries:shop/shulker/shulker

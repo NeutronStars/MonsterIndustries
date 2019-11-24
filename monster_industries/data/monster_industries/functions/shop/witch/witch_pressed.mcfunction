@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= witch_1 prices if score @s spider_count >= witch_2 prices run function monster_industries:shop/witch/witch

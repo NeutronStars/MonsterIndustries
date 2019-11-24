@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= blaze_1 prices if score @s bpowder_count >= blaze_2 prices run function monster_industries:shop/blaze/blaze
