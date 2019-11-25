@@ -1,6 +1,7 @@
 #Teams
 team remove Enderman
 team remove Blaze
+team remove Spectator
 
 #Objective info
 scoreboard objectives remove level_target

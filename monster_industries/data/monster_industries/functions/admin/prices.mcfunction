@@ -106,11 +106,11 @@ scoreboard players set ghast_1 prices 60
 scoreboard players set ghast_2 prices 50
 scoreboard players set phantom_1 prices 70
 scoreboard players set phantom_2 prices 55
-scoreboard players set evoker_1 prices 65
-scoreboard players set evoker_2 prices 45
+scoreboard players set evoker_1 prices 75
+scoreboard players set evoker_2 prices 135
 scoreboard players set ravager_1 prices 80
 scoreboard players set ravager_2 prices 80
-scoreboard players set vex_1 prices 70
+scoreboard players set vex_1 prices 60
 scoreboard players set vex_2 prices 50
 
 #Set Give player count armure.

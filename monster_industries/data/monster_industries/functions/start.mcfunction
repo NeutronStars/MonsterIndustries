@@ -122,7 +122,6 @@ scoreboard players set @a vex 0
 #Set default point for industries
 scoreboard players set Enderman capital 0
 scoreboard players set Blaze capital 0
-scoreboard players set Objectif capital 10000
 scoreboard objectives setdisplay sidebar capital
 
 scoreboard players set @a transfert 0
@@ -131,3 +130,18 @@ scoreboard players set Enderman win 0
 scoreboard players set Blaze win 0
 
 scoreboard players set @a death 0
+
+#Add Team Spectator and set gamemode
+execute as @a[team=!Spectator] if entity @s[team=!Enderman] if entity @s[team=!Blaze] run team join Spectator @s
+gamemode adventure @a[team=Enderman]
+gamemode adventure @a[team=Blaze]
+gamemode spectator @a[team=Spectator]
+
+teleport @a[team=Enderman] 479 102 27
+teleport @a[team=Blaze] 521 102 -27
+teleport @a[team=Spectator] 500 107 0
+
+spawnpoint @a[team=Enderman] 479 102 27
+spawnpoint @a[team=Blaze] 521 102 -27
+
+clear @a

@@ -11,8 +11,15 @@ team modify Blaze collisionRule never
 team modify Blaze friendlyFire false
 team modify Blaze prefix "[Blaze] "
 
+team add Spectator
+team modify Spectator color aqua
+team modify Spectator prefix "[Spect] "
+
 #Objective info
 scoreboard objectives add level_target dummy
+scoreboard players set objectif_max level_target 10000
+scoreboard players set objectif_min level_target 2500
+scoreboard players set objectif_offset level_target 2500
 
 #Objective Level factories
 scoreboard objectives add level dummy
@@ -103,6 +110,8 @@ scoreboard objectives add clear_membrane dummy
 
 #Main Objective for industries 
 scoreboard objectives add capital dummy "Capital"
+scoreboard players set Objectif capital 10000
+
 scoreboard objectives add transfert dummy
 scoreboard objectives add win dummy
 
