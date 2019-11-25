@@ -4,6 +4,9 @@ scoreboard players set level_2 level_target 2
 scoreboard players set level_3 level_target 3
 scoreboard players set level_4 level_target 4
 
+scoreboard players set hotbar level_target 0
+scoreboard players set hotbar timer 0
+
 #Set Default Objective for devices
 scoreboard players set @a clear_paper 0
 scoreboard players set @a clear_bone 0
