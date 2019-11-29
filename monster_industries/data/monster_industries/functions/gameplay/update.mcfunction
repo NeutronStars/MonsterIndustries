@@ -15,6 +15,8 @@ execute if score hotbar level_target matches 1 as @a run title @s actionbar [{"s
 #Slaves
 function monster_industries:enderman/slave/main
 function monster_industries:blaze/slave/main
+execute if entity @e[tag=stop_slave,tag=b_slave] run function monster_industries:enderman/slave/stop/timer
+execute if entity @e[tag=stop_slave,tag=e_slave] run function monster_industries:blaze/slave/stop/timer
 
 execute as @a[team=Enderman] if score @s death matches 1.. run function monster_industries:gameplay/enderman_death
 execute as @a[team=Blaze] if score @s death matches 1.. run function monster_industries:gameplay/blaze_death
