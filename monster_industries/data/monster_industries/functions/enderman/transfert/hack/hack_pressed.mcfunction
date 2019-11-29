@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= level_100 level_target run function monster_industries:enderman/transfert/hack/hack

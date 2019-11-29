@@ -7,7 +7,9 @@ scoreboard players set slave_2 prices 200
 scoreboard players set slave_3 prices 500
 scoreboard players set slave_4 prices 1000
 
-scoreboard players set down_slave prices 200
+scoreboard players set down_slave prices 800
+
+scoreboard players set stop_slave prices 400
 
 #Set price for levelup Factories
 scoreboard players set f_coal_2 prices 200
@@ -165,3 +167,8 @@ scoreboard players set phantom shop 1
 scoreboard players set evoker shop 1
 scoreboard players set ravager shop 1
 scoreboard players set vex shop 1
+
+#Shop secondary
+scoreboard players set rob prices 700
+#Not prices but %
+scoreboard players set hack prices 25

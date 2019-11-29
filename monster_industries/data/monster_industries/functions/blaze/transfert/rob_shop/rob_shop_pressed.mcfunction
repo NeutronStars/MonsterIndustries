@@ -1,0 +1,1 @@
+execute as @p if score @s paper_count >= rob prices run function monster_industries:blaze/transfert/rob_shop/rob

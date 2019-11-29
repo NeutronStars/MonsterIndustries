@@ -113,6 +113,7 @@ scoreboard objectives add capital dummy "Capital"
 scoreboard players set Objectif capital 10000
 
 scoreboard objectives add transfert dummy
+scoreboard objectives add transfert_rob dummy
 scoreboard objectives add win dummy
 
 scoreboard objectives add death deathCount

@@ -1,0 +1,2 @@
+scoreboard players set Enderman transfert_rob 0
+function monster_industries:enderman/transfert/transfert

@@ -1,1 +1,2 @@
-execute as @p[team=Blaze] if score @s paper_count >= capital_cost paper_count run function monster_industries:blaze/transfert/transfert
+execute as @p[team=Blaze] if score Enderman transfert_rob matches 0 if score @s paper_count >= capital_cost paper_count run function monster_industries:blaze/transfert/transfert
+execute as @p[team=Blaze] if score Enderman transfert_rob matches 1.. if score @s paper_count >= capital_cost paper_count run function monster_industries:blaze/transfert/rob_transfert

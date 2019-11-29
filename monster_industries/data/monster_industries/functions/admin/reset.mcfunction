@@ -95,6 +95,7 @@ scoreboard objectives remove clear_membrane
 #Main Objective for industries
 scoreboard objectives remove capital
 scoreboard objectives remove transfert
+scoreboard objectives remove transfert_rob
 scoreboard objectives remove win
 
 scoreboard objectives remove death

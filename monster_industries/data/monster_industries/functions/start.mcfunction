@@ -4,6 +4,8 @@ scoreboard players set level_2 level_target 2
 scoreboard players set level_3 level_target 3
 scoreboard players set level_4 level_target 4
 
+scoreboard players set level_100 level_target 100
+
 scoreboard players set hotbar level_target 0
 scoreboard players set hotbar timer 0
 
@@ -128,6 +130,9 @@ scoreboard players set Blaze capital 0
 scoreboard objectives setdisplay sidebar capital
 
 scoreboard players set @a transfert 0
+
+scoreboard players set Enderman transfert_rob 0
+scoreboard players set Blaze transfert_rob 0
 
 scoreboard players set Enderman win 0
 scoreboard players set Blaze win 0
