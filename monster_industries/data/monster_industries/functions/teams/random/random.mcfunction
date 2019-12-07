@@ -1,0 +1,2 @@
+execute if score half_playc paper_count <= current_playc paper_count run function teams/random:blaze
+execute if score half_playc paper_count > current_playc paper_count run function teams/random:enderman
