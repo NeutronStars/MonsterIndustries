@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {NoGravity:1,Small:1b,Tags:["door"],Invisible:1}
