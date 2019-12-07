@@ -4,60 +4,63 @@ scoreboard players set player_death prices 100
 #Le prix des niveaux des esclaves doivent être des multiple de 100. Pour modifier cela, veuillez check dans clear.mcfunction des dossiers slaves.
 scoreboard players set slave_1 prices 100
 scoreboard players set slave_2 prices 200
-scoreboard players set slave_3 prices 500
-scoreboard players set slave_4 prices 1000
+scoreboard players set slave_3 prices 300
+scoreboard players set slave_4 prices 500
 
-scoreboard players set down_slave prices 800
+scoreboard players set down_slave prices 350
 
 scoreboard players set stop_slave prices 400
 
 #Set price for levelup Factories
-scoreboard players set f_coal_2 prices 200
-scoreboard players set f_coal_3 prices 400
-scoreboard players set f_coal_4 prices 600
+scoreboard players set f_coal_2 prices 150
+scoreboard players set f_coal_3 prices 250
+scoreboard players set f_coal_4 prices 400
 
-scoreboard players set f_bpowder_2 prices 250
-scoreboard players set f_bpowder_3 prices 500
-scoreboard players set f_bpowder_4 prices 700
+scoreboard players set f_bpowder_2 prices 200
+scoreboard players set f_bpowder_3 prices 300
+scoreboard players set f_bpowder_4 prices 500
 
 scoreboard players set f_bone_2 prices 100
-scoreboard players set f_bone_3 prices 250
-scoreboard players set f_bone_4 prices 500
+scoreboard players set f_bone_3 prices 150
+scoreboard players set f_bone_4 prices 200
 
-scoreboard players set f_gpowder_2 prices 200
-scoreboard players set f_gpowder_3 prices 400
-scoreboard players set f_gpowder_4 prices 600
+scoreboard players set f_gpowder_2 prices 150
+scoreboard players set f_gpowder_3 prices 250
+scoreboard players set f_gpowder_4 prices 400
 
-scoreboard players set f_spider_2 prices 200
-scoreboard players set f_spider_3 prices 400
-scoreboard players set f_spider_4 prices 600
+scoreboard players set f_spider_2 prices 150
+scoreboard players set f_spider_3 prices 250
+scoreboard players set f_spider_4 prices 400
 
-scoreboard players set f_membrane_2 prices 400
-scoreboard players set f_membrane_3 prices 700
-scoreboard players set f_membrane_4 prices 1000
+scoreboard players set f_membrane_2 prices 200
+scoreboard players set f_membrane_3 prices 350
+scoreboard players set f_membrane_4 prices 550
 
 #Set price armure with the paper devise
-scoreboard players set sword_wood prices 50
-scoreboard players set helmet_leather prices 50
-scoreboard players set chest_leather prices 100
-scoreboard players set legs_leather prices 50
-scoreboard players set boots_leather prices 50
-scoreboard players set steacks prices 25
-scoreboard players set sword_stone prices 100
-scoreboard players set boots_gold prices 75
-scoreboard players set legs_gold prices 75
-scoreboard players set chest_mail prices 150
-scoreboard players set helmet_gold prices 75
-scoreboard players set sword_iron prices 150
-scoreboard players set boots_iron prices 100
-scoreboard players set legs_iron prices 100
-scoreboard players set chest_iron prices 200
-scoreboard players set helmet_iron prices 100
-scoreboard players set sword_diams prices 300
-scoreboard players set boots_diams prices 200
-scoreboard players set legs_diams prices 200
-scoreboard players set chest_diams prices 400
-scoreboard players set helmet_diams prices 200
+scoreboard players set sword_wood prices 30
+scoreboard players set helmet_leather prices 20
+scoreboard players set chest_leather prices 50
+scoreboard players set legs_leather prices 25
+scoreboard players set boots_leather prices 20
+scoreboard players set steacks prices 10
+
+scoreboard players set sword_stone prices 50
+scoreboard players set boots_gold prices 30
+scoreboard players set legs_gold prices 40
+scoreboard players set chest_mail prices 75
+scoreboard players set helmet_gold prices 30
+
+scoreboard players set sword_iron prices 70
+scoreboard players set boots_iron prices 50
+scoreboard players set legs_iron prices 65
+scoreboard players set chest_iron prices 100
+scoreboard players set helmet_iron prices 50
+
+scoreboard players set sword_diams prices 100
+scoreboard players set boots_diams prices 70
+scoreboard players set legs_diams prices 85
+scoreboard players set chest_diams prices 150
+scoreboard players set helmet_diams prices 70
 
 #Set prive monster with multidevise
 scoreboard players set zombie_1 prices 20
@@ -121,7 +124,7 @@ scoreboard players set helmet_leather shop 1
 scoreboard players set chest_leather shop 1
 scoreboard players set legs_leather shop 1
 scoreboard players set boots_leather shop 1
-scoreboard players set steacks shop 2
+scoreboard players set steacks shop 4
 scoreboard players set sword_stone shop 1
 scoreboard players set boots_gold shop 1
 scoreboard players set legs_gold shop 1
@@ -169,6 +172,6 @@ scoreboard players set ravager shop 1
 scoreboard players set vex shop 1
 
 #Shop secondary
-scoreboard players set rob prices 700
+scoreboard players set rob prices 400
 #Not prices but %
 scoreboard players set hack prices 25
