@@ -145,11 +145,11 @@ gamemode adventure @a[team=Enderman]
 gamemode adventure @a[team=Blaze]
 gamemode spectator @a[team=Spectator]
 
-teleport @a[team=Enderman] 479 102 27
-teleport @a[team=Blaze] 521 102 -27
+teleport @a[team=Enderman] -5 63 -14 -90 0
+teleport @a[team=Blaze] 43 63 14 -90 0
 teleport @a[team=Spectator] 500 107 0
 
-spawnpoint @a[team=Enderman] 479 102 27
-spawnpoint @a[team=Blaze] 521 102 -27
+spawnpoint @a[team=Enderman] -5 63 -14
+spawnpoint @a[team=Blaze] 43 63 14
 
 clear @a

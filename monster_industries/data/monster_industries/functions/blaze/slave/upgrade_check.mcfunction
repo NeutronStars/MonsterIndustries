@@ -1,4 +1,4 @@
-execute positioned ~4 ~-2 ~ if entity @e[tag=b_slave,scores={slave_level=3},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_4 prices run function monster_industries:blaze/slave/upgrade/tier4
-execute positioned ~4 ~-2 ~ if entity @e[tag=b_slave,scores={slave_level=2},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_3 prices run function monster_industries:blaze/slave/upgrade/tier3
-execute positioned ~4 ~-2 ~ if entity @e[tag=b_slave,scores={slave_level=1},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_2 prices run function monster_industries:blaze/slave/upgrade/tier2
-execute positioned ~4 ~-2 ~ unless entity @e[tag=b_slave,distance=..1,sort=nearest] as @p if score @s paper_count >= slave_1 prices run function monster_industries:blaze/slave/upgrade/tier1
+execute positioned ~ ~-2 ~4 if entity @e[tag=b_slave,scores={slave_level=3},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_4 prices run function monster_industries:blaze/slave/upgrade/tier4
+execute positioned ~ ~-2 ~4 if entity @e[tag=b_slave,scores={slave_level=2},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_3 prices run function monster_industries:blaze/slave/upgrade/tier3
+execute positioned ~ ~-2 ~4 if entity @e[tag=b_slave,scores={slave_level=1},distance=..1,sort=nearest] as @p if score @s paper_count >= slave_2 prices run function monster_industries:blaze/slave/upgrade/tier2
+execute positioned ~ ~-2 ~4 unless entity @e[tag=b_slave,distance=..1,sort=nearest] as @p if score @s paper_count >= slave_1 prices run function monster_industries:blaze/slave/upgrade/tier1
