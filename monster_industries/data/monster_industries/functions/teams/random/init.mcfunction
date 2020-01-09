@@ -1,4 +1,5 @@
 #set scores
+team leave @a
 scoreboard players set 2 paper_count 2
 scoreboard players set current_playc paper_count 1
 scoreboard players set playc paper_count 0
