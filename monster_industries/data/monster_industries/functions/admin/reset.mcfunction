@@ -102,3 +102,15 @@ scoreboard objectives remove death
 
 #Reload Objectives
 function monster_industries:admin/init
+
+#shop corridors
+clone -23 68 -26 -21 70 26 -23 63 -26
+clone 59 68 -26 61 70 26 59 63 -26
+
+#shop buttons
+##enderman
+setblock -18 64 2 minecraft:dark_oak_button
+setblock -18 64 -2 minecraft:dark_oak_button
+##blaze
+setblock 56 64 2 minecraft:dark_oak_button
+setblock 56 64 -2 minecraft:dark_oak_button
